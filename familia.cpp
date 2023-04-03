@@ -34,7 +34,11 @@ public:
 };
 
 class Gato : public Familia {
+
 public:
+    Gato() {
+        nombreIntegrante = "nada";
+    }
     void maullar() {
         cout << "miau" << endl;
     }
